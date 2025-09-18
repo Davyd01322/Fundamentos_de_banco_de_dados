@@ -19,4 +19,30 @@ Linguagens do SGBD
       ex.:
       UPDATE ALUNO SET NAME = "JOÃO COSTA" WHERE MATRICULA = 101;
       DELETE FROM ALUNO;
-  Linguagem de manipulação de dados (DQL - Data Query Language)
+  Linguagem de manipulação de dados (DQL - Data Query Language):
+      SELECT * FROM ALUNO;
+
+Ambiente de um sistemea de banco de dados:
+  Software SGBD: No nosso caso será o PostgreSQL que por sua vez processa e acessa os dados.
+  Vamos acessar o banco de dados através de uma aplicação/consulta.
+
+Arquitetura física centralizada
+
+Arquitetura cliente-servidor
+  - 2 camadas:
+      Uma máquina que roda uma aplicação cliente que se conecta com um servidor que mantém o banco de dados.
+  - 3 camadas:
+      Interface web, Servidor de aplicação, servidor de BD e o próprio banco de dados.
+
+Exemplo de uma transação feita via SQL:
+  START TRANSACTION;
+  UPDATE contas SET saldo = saldo - 100 WHERE id = 1;
+  UPDATE contas SET saldo = saldo + 100 WHERE id = 2;
+  COMMIT;
+
+Projeto de Banco de Dados e Modelo de Dados
+  Como devemos começar o banco de dados?
+  O modelo serve para descrever algo que será construido. É uma ótima ideia fazer isso por que os dados são ideias abstratas. 
+
+  Os dados podem ser apresentados quanto seu nivel de abstração: alta ou baixa.
+  
