@@ -1,0 +1,22 @@
+Quem usa o banco de dados?
+  - Administrador;
+  - Projetistas de BD;
+  - Desenvolvedores;
+  - Analistas de BD;
+  - Usuários Finais;
+
+Operações com banco de Dados:
+  Definição: Tipos, estruturas e restrições dos dados;
+  Construção: Criar o banco, definir estruturas de armazenamento;
+  Manipulação: Envolve consultas e atualizações;
+
+Linguages do SGBD:
+  A SQL(Structured Query Language) é a linguagem padrão usada para interagir com banco de dados relacionais;
+
+Linguagens do SGBD
+  Linguagem de definição de dados (DDL - Data Definitinion Language): É como se fosse um subconjunto do SQL.
+  Linguagem de Manipulação de dados (DML - Data Manipulation Language):
+      ex.:
+      UPDATE ALUNO SET NAME = "JOÃO COSTA" WHERE MATRICULA = 101;
+      DELETE FROM ALUNO;
+
