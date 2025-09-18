@@ -19,4 +19,4 @@ Linguagens do SGBD
       ex.:
       UPDATE ALUNO SET NAME = "JOÃO COSTA" WHERE MATRICULA = 101;
       DELETE FROM ALUNO;
-
+  Linguagem de manipulação de dados (DQL - Data Query Language)
